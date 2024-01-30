@@ -7,26 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hotel" />
-        <module name="Registry" />
         <module name="user" />
-        <module name="ApiGateway" />
-        <module name="Rating" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ApiGateway" target="1.5" />
-      <module name="hotel" target="17" />
-      <module name="Rating" target="17" />
-      <module name="Registry" target="17" />
       <module name="user" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Rating" options="-parameters" />
-      <module name="Registry" options="-parameters" />
-      <module name="hotel" options="-parameters" />
       <module name="user" options="-parameters" />
     </option>
   </component>
