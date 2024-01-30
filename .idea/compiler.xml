@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hotel" />
         <module name="Registry" />
-        <module name="user" />
         <module name="Rating" />
       </profile>
     </annotationProcessing>
