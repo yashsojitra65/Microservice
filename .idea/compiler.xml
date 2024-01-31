@@ -11,11 +11,13 @@
         <module name="Registry" />
         <module name="user" />
         <module name="ApiGateway" />
+        <module name="configServer" />
         <module name="Rating" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ApiGateway" target="1.5" />
+      <module name="ApiGateway" target="17" />
+      <module name="configServer" target="1.5" />
       <module name="hotel" target="17" />
       <module name="Rating" target="17" />
       <module name="Registry" target="17" />
@@ -24,8 +26,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApiGateway" options="-parameters" />
       <module name="Rating" options="-parameters" />
       <module name="Registry" options="-parameters" />
+      <module name="configServer" options="" />
       <module name="hotel" options="-parameters" />
       <module name="user" options="-parameters" />
     </option>

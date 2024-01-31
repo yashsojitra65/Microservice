@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Microservices.iml" filepath="$PROJECT_DIR$/.idea/Microservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/Rating/Rating/Rating.iml" filepath="$PROJECT_DIR$/Rating/Rating/Rating.iml" />
       <module fileurl="file://$PROJECT_DIR$/Registry/Registry/Registry.iml" filepath="$PROJECT_DIR$/Registry/Registry/Registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configServer/configServer/configServer.iml" filepath="$PROJECT_DIR$/configServer/configServer/configServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/hotel/hotel/hotel.iml" filepath="$PROJECT_DIR$/hotel/hotel/hotel.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user/user.iml" filepath="$PROJECT_DIR$/user/user/user.iml" />
     </modules>
