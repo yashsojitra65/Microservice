@@ -36,14 +36,14 @@ public class UserController {
     }
 
     public ResponseEntity<User> ratingHotelFallback(String userId, Exception ex) {
-        logger.info("Get Single User Handler: UserController",ex.getMessage());
+        logger.info("Get Single User Handler: UserController", ex.getMessage());
         User user = User.builder()
                 .email("dummy@gmail.com")
                 .name("dummy")
                 .about("This is a dummy")
                 .userId("21654")
                 .build();
-        return new ResponseEntity<>(user,HttpStatus.OK);
+        return new ResponseEntity<>(user, HttpStatus.OK);
     }
 
     @GetMapping("allUser")
